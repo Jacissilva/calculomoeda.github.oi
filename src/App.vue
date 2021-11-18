@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <nave-bar-component/>
+  <div id="app">       
     <img alt="Vue logo" src="./assets/tauros.png">
     <h1>Moedas cotação do dia</h1>  
       <div class="container">
@@ -141,9 +140,12 @@
           disabled/>
       </div>
       <div class="container-four">
-        <h4 id="lastlyUpdated">Última atualização: {{ data.time_last_update_utc }}</h4>
+        <h4 id="lastlyUpdated">Última atualização: {{ data.time_last_update_utc }}</h4>        
       </div>
     </div>
+     <!-- Instalar NavBar  vis Compoments -->
+    <nave-bar-component/>
+    <!-- Instalar NavBar  vis Compoments -->
   </div>
 </template>
 
@@ -204,7 +206,7 @@ html {
   width: 100%;
   height: 100%;
   background: #5fbaa7;
-  border:9px solid blue;
+  border:0px solid blue;
 }
 h1 {
   color: black;
